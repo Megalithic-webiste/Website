@@ -3,21 +3,22 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
-      height: {
-        "10p": "20%",
-        500: "300rem",
-        85: "21rem",
+      backgroundImage: {
+        "header-image": "url('images/header_image.png')",
       },
-      width: {
-        "1280px": "1280px",
-      },
-      margin: {
-        88: "22rem",
+      colors: {
+        beige: "#F8F2D2",
+        olive: "#DCDC91",
+        maroon: "#3D0640",
+        lime: "#DFF19B",
+        dark_grey: "#707070",
+        light_grey: "#C4C4C4",
+        teal: "#204F5E",
       },
     },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };

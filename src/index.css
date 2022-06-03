@@ -3,997 +3,145 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: iCiel;
-  src: url("fonts/iCiel_Crocante.otf") format("opentype");
+  font-family: AvertaCY_Black;
+  src: url("fonts/Averta_Cyrillic_Black.otf") format("opentype");
 }
 
-.font-iciel {
-  font-family: iCiel;
+.font-averta-cy-black {
+  font-family: AvertaCY_Black;
 }
 
 @font-face {
-  font-family: orator;
-  src: url("fonts/OratorStd-Slanted.otf") format("opentype");
+  font-family: AvertaCY_Bold;
+  src: url("fonts/Averta_Cyrillic_Bold.otf") format("opentype");
 }
 
-.font-orator {
-  font-family: orator;
+.font-averta-cy-bold {
+  font-family: AvertaCY_Bold;
 }
 
-@media only screen and (max-width: 1024px) {
-  .object0 {
-    background-color: #FFDC7C;
-  }
-
-.object1 {
-  height: 7vw;
+@font-face {
+  font-family: AvertaCY_ExtraThin;
+  src: url("fonts/Averta_Cyrillic_Extra_Thin.otf") format("opentype");
 }
 
-.object2 {
-  height: 19.5vw;
+.font-averta-cy-extrathin {
+  font-family: AvertaCY_ExtraThin;
 }
 
-.object3 {
-  font-size: 2vw;
-  margin-top: 3.5vw;
-  line-height: 2.5vw;
+@font-face {
+  font-family: AvertaCY_ExtraBold;
+  src: url("fonts/Averta_Cyrillic_ExtraBold.otf") format("opentype");
 }
 
-.object4 {
-  font-size: 1.4vw;
-  margin-top: 2.3vw;
-  line-height: 1.8vw;
+.font-averta-cy-extrabold {
+  font-family: AvertaCY_ExtraBold;
 }
 
-.object5 {
-  font-size: 5vw;
-  margin-top: 23vw;
+@font-face {
+  font-family: AvertaCY_Light;
+  src: url("fonts/Averta_Cyrillic_Light.otf") format("opentype");
 }
 
-.object6 {
-  font-size: 1.4vw;
-  line-height: 1.8vw;
-  margin-right: 5vw;
+.font-averta-cy-light {
+  font-family: AvertaCY_Light;
 }
 
-.object7a {
-  margin-top: 2.5vw;
+@font-face {
+  font-family: AvertaCY_Regular;
+  src: url("fonts/Averta_Cyrillic_Regular.otf") format("opentype");
 }
 
-.object7b {
-  font-size: 7vw;
-  margin-left: 36vw;
-  text-shadow: -0.25vw 0.25vw #9582A7;
+.font-averta-cy-regular {
+  font-family: AvertaCY_Regular;
 }
 
-.object7c {
-  font-size: 1.1vw;
-  line-height: 1vw;
-  margin-right: 36.5vw;
-  margin-top: 4vw;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: white;
+@font-face {
+  font-family: AvertaCY_SemiBold;
+  src: url("fonts/Averta_Cyrillic_SemiBold.otf") format("opentype");
 }
 
-.object8a {
-  margin-top: -2vw;
+.font-averta-cy-semibold {
+  font-family: AvertaCY_SemiBold;
 }
 
-.object8b {
-  font-size: 7vw;
-  margin-left: 35vw;
-  text-shadow: -0.25vw 0.25vw #9582A7;
+@font-face {
+  font-family: AvertaCY_Thin;
+  src: url("fonts/Averta_Cyrillic_Thin.otf") format("opentype");
 }
 
-.object8c {
-  font-size: 1.1vw;
-  line-height: 1vw;
-  margin-right: 36.5vw;
-  margin-top: 4vw;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: white;
+.font-averta-cy-thin {
+  font-family: AvertaCY_Thin;
 }
 
-.object9a {
-  margin-top: -2vw;
+@font-face {
+  font-family: AvertaCY_Black_Italic;
+  src: url("fonts/Averta_Cyrillic_Black.otf") format("opentype");
 }
 
-.object9b {
-  font-size: 7vw;
-  margin-left: 33vw;
-  text-shadow: -0.25vw 0.25vw #9582A7;
+.font-averta-cy-black-italic {
+  font-family: AvertaCY_Black_Italic;
 }
 
-.object9c {
-  font-size: 1.1vw;
-  line-height: 1vw;
-  margin-right: 34.5vw;
-  margin-top: 4.6vw;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: white;
+@font-face {
+  font-family: AvertaCY_Bold_Italic;
+  src: url("fonts/Averta_Cyrillic_Bold.otf") format("opentype");
 }
 
-.object10a {
-  margin-top: -2vw;
+.font-averta-cy-bold-italic {
+  font-family: AvertaCY_Bold_Italic;
 }
 
-.object10b {
-  font-size: 7vw;
-  margin-left: 31.8vw;
-  text-shadow: -0.25vw 0.25vw #9582A7;
+@font-face {
+  font-family: AvertaCY_ExtraThin_Italic;
+  src: url("fonts/Averta_Cyrillic_Extra_Thin.otf") format("opentype");
 }
 
-.object10c {
-  font-size: 1.1vw;
-  line-height: 1vw;
-  margin-right: 34.5vw;
-  margin-top: 4.3vw;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: white;
+.font-averta-cy-extrathin-italic {
+  font-family: AvertaCY_ExtraThin_Italic;
 }
 
-.object11a {
-  margin-top: -2.4vw;
+@font-face {
+  font-family: AvertaCY_ExtraBold_Italic;
+  src: url("fonts/Averta_Cyrillic_ExtraBold.otf") format("opentype");
 }
 
-.object11b {
-  font-size: 7vw;
-  margin-left: 31vw;
-  text-shadow: -0.25vw 0.25vw #9582A7;
+.font-averta-cy-extrabold-italic {
+  font-family: AvertaCY_ExtraBold_Italic;
 }
 
-.object11c {
-  font-size: 1.1vw;
-  line-height: 1vw;
-  margin-right: 32.5vw;
-  margin-top: 4.5vw;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: white;
+@font-face {
+  font-family: AvertaCY_Light_Italic;
+  src: url("fonts/Averta_Cyrillic_Light.otf") format("opentype");
 }
 
-.object12a {
-  margin-top: -2.2vw;
+.font-averta-cy-light-italic {
+  font-family: AvertaCY_Light_Italic;
 }
 
-.object12b {
-  font-size: 7vw;
-  margin-left: 28vw;
-  text-shadow: -0.25vw 0.25vw #9582A7;
+@font-face {
+  font-family: AvertaCY_Regular_Italic;
+  src: url("fonts/Averta_Cyrillic_Regular.otf") format("opentype");
 }
 
-.object12c {
-  font-size: 1.1vw;
-  line-height: 1vw;
-  margin-right: 30vw;
-  margin-top: 4.5vw;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: white;
+.font-averta-cy-regular-italic {
+  font-family: AvertaCY_Regular_Italic;
 }
 
-.object13 {
-  height: 10.5vw;
-  margin-top: 36vw;
+@font-face {
+  font-family: AvertaCY_SemiBold_Italic;
+  src: url("fonts/Averta_Cyrillic_SemiBold.otf") format("opentype");
 }
 
-.object14 {
-  font-size: 5vw;
-  margin-top: 41vw;
+.font-averta-cy-semibold-italic {
+  font-family: AvertaCY_SemiBold_Italic;
 }
 
-.object15 {
-  font-size: 1.4vw;
-  line-height: 1.8vw;
+@font-face {
+  font-family: AvertaCY_Thin_Italic;
+  src: url("fonts/Averta_Cyrillic_Thin.otf") format("opentype");
 }
 
-.object16 {
-  height: 17vw;
-  width: 17vw;
-  margin-top: 3vw;
-  border-radius: 2vw;
-  border: 0.3vw solid black;
+.font-averta-cy-thin-italic {
+  font-family: AvertaCY_Thin_Italic;
 }
-
-.object17 {
-  margin-top: 1.5vw;
-  font-size: 2.1vw;
-  line-height: 1.8vw;
-}
-
-.object18 {
-  margin-top: 1.5vw;
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-}
-
-.object19 {
-  font-size: 5vw;
-  margin-top: 5vw;
-}
-
-.object20 {
-  padding: 2.1vw 4vw 1.8vw 4vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 3vw;
-    margin-bottom: 2vw;
-    border-radius: 1.5vw;
-}
-
-.object21 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-}
-
-.object22 {
-  width: 1.8vw;
-}
-
-.object23 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-left: 13vw;
-  margin-right: 13vw;
-}
-
-.object24 {
-  padding: 2.1vw 4vw 1.8vw 4vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 0vw;
-  margin-bottom: 2vw;
-  border-radius: 1.5vw;
-}
-
-.object25 {
-  margin-top: 7vw;
-  padding-top: 2vw;;
-  padding-bottom: 15vw;
-}
-
-.object26 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 2vw;
-}
-
-.object27 {
-  width: 2vw;
-}
-
-.object28 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-left: 4vw;
-  padding-top: 0.6vw;
-}
-
-.object29 {
-  margin-top: 6vw;
-}
-
-.object30 {
-  height: 2vw;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
-}
-
-.object31 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-top: 10vw;
-}
-
-.object32 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-top: 4vw;
-}
-
-.object33 {
-  margin-top: 6vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw 5vw 0vw 5vw;
-  border-radius: 2vw;
-}
-
-.object34 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-top: 2vw;
-  margin-bottom: 1vw;
-}
-
-.object35 {
-  width: 32.5vw;
-}
-
-.object36 {
-  border-radius: 1vw;
-  border-width: 0.25vw;
-  border-color: black;
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  padding: 1.5vw 2vw 0.75vw 2vw;
-}
-
-.object37 {
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  margin-top: 4vw;
-  margin-bottom: 1vw;
-}
-
-.object38 {
-  height: 40vw;
-  border-radius: 1vw;
-  border-width: 0.25vw;
-  border-color: black;
-  font-size: 1.4vw;
-  line-height: 1.6vw;
-  padding: 1.5vw 2vw 0.75vw 2vw;
-}
-
-.object39 {
-  height: 15vw;
-  margin-top: -7vw;
-  margin-right: -6vw;
-}
-
-}
-
-@media only screen and (max-width: 767px) {
-  .object0 {
-    background-color: #FFDC7C;
-  }
-
-  .object1 {
-    margin-top: 5vw;
-    height: 7vw;
-  }
-
-  .object2 {
-    height: 25vw;
-  }
-
-  .object3 {
-    font-size: 4vw;
-    margin-top: 6vw;
-    line-height: 5.5vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
-  }
-
-  .object4 {
-    font-size: 3vw;
-    margin-top: 4vw;
-    line-height: 3vw;
-  }
-
-  .object5 {
-    font-size: 10vw;
-    margin-top: 45vw;
-  }
-
-  .object6 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-right: 5vw;
-  }
-
-  .object7a {
-    margin-top: 0vw;
-  }
-
-  .object7b {
-    font-size: 13vw;
-    margin-left: 26vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object7c {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-right: 25vw;
-    margin-top: 7vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object8a {
-    margin-top: -5vw;
-  }
-
-  .object8b {
-    font-size: 13vw;
-    margin-left: 23vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object8c {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-right: 25vw;
-    margin-top: 7vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object9a {
-    margin-top: -5vw;
-  }
-
-  .object9b {
-    font-size: 13vw;
-    margin-left: 20vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object9c {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-right: 24vw;
-    margin-top: 7vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object10a {
-    margin-top: -5vw;
-  }
-
-  .object10b {
-    font-size: 13vw;
-    margin-left: 17vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object10c {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-right: 21vw;
-    margin-top: 7vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object11a {
-    margin-top: -5vw;
-  }
-
-  .object11b {
-    font-size: 13vw;
-    margin-left: 14vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object11c {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-right: 17vw;
-    margin-top: 7vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object12a {
-    margin-top: -5vw;
-  }
-
-  .object12b {
-    font-size: 13vw;
-    margin-left: 11vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object12c {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-right: 14vw;
-    margin-top: 8vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object13 {
-    height: 13.5vw;
-    margin-top: 39vw;
-  }
-
-  .object14 {
-    font-size: 13vw;
-    margin-top: 43vw;
-  }
-
-  .object15 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 4w;
-  }
-
-  .object16 {
-    height: 30vw;
-    width: 30vw;
-    margin-top: 3vw;
-    border-radius: 2vw;
-    border: 0.3vw solid black;
-  }
-
-  .object17 {
-    margin-top: 4vw;
-    font-size: 4vw;
-    line-height: 1.8vw;
-  }
-
-  .object18 {
-    margin-top: 3vw;
-    font-size: 2.5vw;
-    line-height: 2.5vw;
-  }
-
-  .object19 {
-    font-size: 10vw;
-    margin-top: 5vw;
-  }
-
-  .object20 {
-    padding: 3vw 4vw 3vw 4vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 5vw;
-    margin-bottom: 4vw;
-    border-radius: 2.5vw;
-  }
-
-  .object21 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-  }
-
-  .object22 {
-    width: 3vw;
-  }
-
-  .object23 {
-    font-size: 2vw;
-    line-height: 3vw;
-    margin-left: 13vw;
-    margin-right: 13vw;
-  }
-
-  .object24 {
-    padding: 3vw 4vw 3vw 4vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 1vw;
-    margin-bottom: 4vw;
-    border-radius: 2.5vw;
-  }
-
-  .object25 {
-    margin-top: 10vw;
-    padding-top: 7vw;;
-    padding-bottom: 15vw;
-  }
-
-  .object26 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 2vw;
-  }
-
-  .object27 {
-    width: 4vw;
-  }
-
-  .object28 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-left: 4vw;
-    padding-top: 0.6vw;
-  }
-
-  .object29 {
-    margin-top: 8vw;
-  }
-
-  .object30 {
-    height: 4vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-  }
-
-  .object31 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-top: 15vw;
-  }
-
-  .object32 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-top: 4vw;
-  }
-
-  .object33 {
-    margin-top: 10vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 5vw 5vw 0vw 5vw;
-    border-radius: 3vw;
-  }
-
-  .object34 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-top: 2vw;
-    margin-bottom: 1vw;
-  }
-
-  .object35 {
-    width: 32.5vw;
-  }
-
-  .object36 {
-    border-radius: 1vw;
-    border-width: 0.25vw;
-    border-color: black;
-    font-size: 2.5vw;
-    line-height: 3vw;
-    padding: 1.5vw 2vw 0.75vw 2vw;
-  }
-
-  .object37 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 1vw;
-  }
-
-  .object38 {
-    height: 40vw;
-    border-radius: 1vw;
-    border-width: 0.25vw;
-    border-color: black;
-    font-size: 2.5vw;
-    line-height: 3vw;
-    padding: 1.5vw 2vw 0.75vw 2vw;
-  }
-
-  .object39 {
-    height: 15vw;
-    margin-top: -7vw;
-    margin-right: -6vw;
-  }
-  }
-
-  @media only screen and (min-width: 1024px) {
-    .object0 {
-      background-color: #FFDC7C;
-    }
-
-  .object1 {
-    height: 7vw;
-  }
-
-  .object2 {
-    height: 19.5vw;
-  }
-
-  .object3 {
-    font-size: 2vw;
-    margin-top: 3.5vw;
-    line-height: 2.5vw;
-  }
-
-  .object4 {
-    font-size: 1.4vw;
-    margin-top: 2.3vw;
-    line-height: 1.8vw;
-  }
-
-  .object5 {
-    font-size: 5vw;
-    margin-top: 23vw;
-  }
-
-  .object6 {
-    font-size: 1.4vw;
-    line-height: 1.8vw;
-    margin-right: 5vw;
-  }
-
-  .object7a {
-    margin-top: 2.5vw;
-  }
-
-  .object7b {
-    font-size: 7vw;
-    margin-left: 36vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object7c {
-    font-size: 1.1vw;
-    line-height: 1vw;
-    margin-right: 36.5vw;
-    margin-top: 4vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object8a {
-    margin-top: -2vw;
-  }
-
-  .object8b {
-    font-size: 7vw;
-    margin-left: 35vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object8c {
-    font-size: 1.1vw;
-    line-height: 1vw;
-    margin-right: 36.5vw;
-    margin-top: 4vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object9a {
-    margin-top: -2vw;
-  }
-
-  .object9b {
-    font-size: 7vw;
-    margin-left: 33vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object9c {
-    font-size: 1.1vw;
-    line-height: 1vw;
-    margin-right: 34.5vw;
-    margin-top: 4.6vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object10a {
-    margin-top: -2vw;
-  }
-
-  .object10b {
-    font-size: 7vw;
-    margin-left: 31.8vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object10c {
-    font-size: 1.1vw;
-    line-height: 1vw;
-    margin-right: 34.5vw;
-    margin-top: 4.3vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object11a {
-    margin-top: -2.4vw;
-  }
-
-  .object11b {
-    font-size: 7vw;
-    margin-left: 31vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object11c {
-    font-size: 1.1vw;
-    line-height: 1vw;
-    margin-right: 32.5vw;
-    margin-top: 4.5vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object12a {
-    margin-top: -2.2vw;
-  }
-
-  .object12b {
-    font-size: 7vw;
-    margin-left: 28vw;
-    text-shadow: -0.25vw 0.25vw #9582A7;
-  }
-
-  .object12c {
-    font-size: 1.1vw;
-    line-height: 1vw;
-    margin-right: 30vw;
-    margin-top: 4.5vw;
-    -webkit-text-stroke-width: 0.1vw;
-    -webkit-text-stroke-color: white;
-  }
-
-  .object13 {
-    height: 10.5vw;
-    margin-top: 36vw;
-  }
-
-  .object14 {
-    font-size: 5vw;
-    margin-top: 41vw;
-  }
-
-  .object15 {
-    font-size: 1.4vw;
-    line-height: 1.8vw;
-  }
-
-  .object16 {
-    height: 17vw;
-    width: 17vw;
-    margin-top: 3vw;
-    border-radius: 2vw;
-    border: 0.3vw solid black;
-  }
-
-  .object17 {
-    margin-top: 1.5vw;
-    font-size: 2.1vw;
-    line-height: 1.8vw;
-  }
-
-  .object18 {
-    margin-top: 1.5vw;
-    font-size: 1.4vw;
-    line-height: 1.6vw;
-  }
-
-  .object19 {
-    font-size: 5vw;
-    margin-top: 5vw;
-  }
-
-  .object20 {
-    padding: 2.1vw 4vw 1.8vw 4vw;
-      margin-left: 10vw;
-      margin-right: 10vw;
-      margin-top: 3vw;
-      margin-bottom: 2vw;
-      border-radius: 1.5vw;
-  }
-
-  .object21 {
-    font-size: 1.4vw;
-    line-height: 1.6vw;
-  }
-
-  .object22 {
-    width: 1.8vw;
-  }
-
-  .object23 {
-    font-size: 1.4vw;
-    line-height: 1.6vw;
-    margin-left: 13vw;
-    margin-right: 13vw;
-  }
-
-  .object24 {
-    padding: 2.1vw 4vw 1.8vw 4vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 0vw;
-    margin-bottom: 2vw;
-    border-radius: 1.5vw;
-  }
-
-    .object25 {
-      margin-top: 10vw;
-      padding-top: 7vw;;
-      padding-bottom: 15vw;
-      padding-left: 10vw;
-      padding-right: 10vw;
-    }
-
-    .object26 {
-      font-size: 1.4vw;
-      line-height: 1.6vw;
-      margin-top: 2vw;
-    }
-
-    .object27 {
-      width: 2vw;
-    }
-
-    .object28 {
-      font-size: 1.4vw;
-      line-height: 1.6vw;
-      margin-left: 2vw;
-      padding-top: 0.6vw;
-    }
-
-    .object29 {
-      margin-top: 6vw;
-    }
-
-    .object30 {
-      height: 2vw;
-      margin-right: 2.5vw;
-    }
-
-    .object31 {
-      font-size: 1.4vw;
-  line-height: 1.6vw;
-      margin-top: 10vw;
-    }
-
-    .object32 {
-      font-size: 1.4vw;
-  line-height: 1.6vw;
-      margin-top: 4vw;
-    }
-
-    .object33 {
-      margin-top: 7vw;
-      padding: 2.2vw 3vw 0vw 3vw;
-      border-radius: 2vw;
-      width: 45vw;
-    }
-
-    .object34 {
-      font-size: 1.4vw;
-  line-height: 1.6vw;
-      margin-top: 1vw;
-      margin-bottom: 0.5vw;
-    }
-
-    .object35 {
-      width: 18vw;
-    }
-
-    .object36 {
-      border-radius: 1vw;
-      border-width: 0.25vw;
-      border-color: black;
-      font-size: 1.4vw;
-      line-height: 1.6vw;
-      padding: 1.5vw 2vw 0.75vw 2vw;
-    }
-
-    .object37 {
-      font-size: 1.4vw;
-  line-height: 1.6vw;
-      margin-top: 2vw;
-      margin-bottom: 0.5vw;
-    }
-
-    .object38 {
-      height: 27vw;
-      border-radius: 1vw;
-      border-width: 0.2vw;
-      border-color: black;
-      font-size: 1.4vw;
-      line-height: 1.6vw;
-      padding: 1.5vw 2vw 0.75vw 2vw;
-    }
-
-    .object39 {
-      height: 8vw;
-      margin-top: -4vw;
-      margin-right: -3.9vw;
-    }
-
-    .object40 {
-      width: 30vw;
-    }
-  }
