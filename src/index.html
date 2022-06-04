@@ -8,75 +8,109 @@
 
   <body class="bg-olive">
     <!-- Header -->
-    <div id="header" class="h-52 mt-4">
+    <div id="header" class="mt-4">
       <!-- Dekstop header -->
-      <div class="lg:flex flex-row h-full w-auto mx-4 hidden">
+      <div class="h-52 lg:flex flex-row w-auto mx-4 hidden">
         <img src="images/megalithic_logo.gif" class="h-full w-auto" />
         <div class="flex flex-col h-full w-full">
-          <div class="w-auto h-14 bg-beige">
+          <div class="w-auto h-14 xl:h-20 bg-beige xl:px-3">
             <div class="h-full flex flex-row justify-between">
               <div class="flex flex-col justify-center h-full">
-                <div class="flex flex-row">
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">
-                      Latest Entries
-                    </h1>
+                <div id="search-bar" class="hidden flex-row">
+                  <div
+                    class="h-7 rounded-full my-auto ml-2 bg-white w-auto flex flex-row"
+                  >
                     <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
+                      src="images/search.svg"
+                      class="h-3.5 w-auto my-auto mx-2.5"
                     />
-                  </div>
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">Find a Site</h1>
-                    <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
-                    />
-                  </div>
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">Join In</h1>
-                    <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
-                    />
-                  </div>
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">News & Links</h1>
-                    <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
-                    />
-                  </div>
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">Forum</h1>
-                    <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
-                    />
-                  </div>
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">Shop</h1>
-                    <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
-                    />
-                  </div>
-                  <div class="flex flex-row mx-3">
-                    <h1 class="font-averta-cy-regular text-xs">About Us</h1>
-                    <img
-                      src="images/down_arrow.svg"
-                      class="h-1.5 w-auto my-auto ml-1.5"
+                    <input
+                      type="text"
+                      placeholder="Search.."
+                      name="search"
+                      class="w-96 font-averta-cy-regular text-sm text-teal placeholder-teal rounded-r-full"
                     />
                   </div>
                   <img
+                    id="close-search"
+                    src="images/cross.svg"
+                    class="h-5 w-auto my-auto ml-2"
+                  />
+                </div>
+                <div id="header-bar" class="flex-row flex">
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      Latest Entries
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      Find a Site
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      Join In
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      News & Links
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      Forum
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      Shop
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <div class="flex flex-row mx-3 xl:mx-4">
+                    <h1 class="font-averta-cy-regular text-xs xl:text-base">
+                      About Us
+                    </h1>
+                    <img
+                      src="images/down_arrow_header.svg"
+                      class="h-1.5 xl:h-2 w-auto my-auto ml-1.5"
+                    />
+                  </div>
+                  <img
+                    id="search-button"
                     src="images/search.svg"
-                    class="h-2.5 w-auto my-auto ml-2.5"
+                    class="h-2.5 xl:h-4 w-auto my-auto ml-2.5 xl:ml-4"
                   />
                 </div>
               </div>
               <div class="flex flex-col justify-center">
                 <h1
-                  class="align-end bg-maroon py-1.5 px-4 mr-3 rounded-md text-white font-averta-cy-bold text-xs ml-auto align-middle"
+                  class="align-end bg-maroon py-1.5 xl:py-2 px-4 xl:px-6 mr-3 rounded-md text-white font-averta-cy-bold text-xs xl:text-sm ml-auto align-middle"
                 >
                   Login
                 </h1>
@@ -88,7 +122,21 @@
       </div>
 
       <!-- Menu button -->
-      <a id="menu" class="lg:hidden flex">Menu</a>
+      <div
+        class="lg:hidden flex relative justify-between mx-4 mt-4 h-20 bg-beige"
+      >
+        <div class="w-full h-full absolute">
+          <img src="images/megalithic_logo.gif" class="h-full w-auto mx-auto" />
+        </div>
+        <div class="absolute w-full justify-between flex flex-row">
+          <img id="menu" src="images/menu.svg" class="m-6" />
+          <h1
+            class="bg-maroon text-white font-averta-cy-bold my-auto py-2 mx-6 px-5 rounded-lg"
+          >
+            Login
+          </h1>
+        </div>
+      </div>
     </div>
 
     <!-- Close menu button -->
@@ -99,14 +147,23 @@
       <!-- Left sidebar -->
       <div
         id="sidebar-left"
-        class="h-auto w-full max-w-sm mx-auto lg:w-44 hidden lg:flex mt-4 lg:mt-0"
+        class="h-auto w-full max-w-sm mx-auto lg:w-44 xl:w-60 hidden lg:flex mt-4 lg:mt-0"
       >
         <div class="flex flex-col w-full">
           <div class="bg-lime flex flex-row justify-between py-3 px-4">
             <h1 class="font-averta-cy-semibold text-sm">Main Menu</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1">News</a>
             <a href="#" class="font-averta-cy-regular text-xs my-1">Forum</a>
             <a href="#" class="font-averta-cy-regular text-xs my-1"
@@ -145,9 +202,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">Contribute!</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige hidden flex-col py-3 px-4">
+          <div class="bg-beige hidden flex-col py-3 px-4 menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1">News</a>
             <a href="#" class="font-averta-cy-regular text-xs my-1">Forum</a>
             <a href="#" class="font-averta-cy-regular text-xs my-1"
@@ -188,9 +254,18 @@
             <h1 class="font-averta-cy-semibold text-sm">
               Download to GPS/SatNav
             </h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige hidden flex-col py-3 px-4">
+          <div class="bg-beige hidden flex-col py-3 px-4 menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1">News</a>
             <a href="#" class="font-averta-cy-regular text-xs my-1">Forum</a>
             <a href="#" class="font-averta-cy-regular text-xs my-1"
@@ -246,9 +321,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">Login</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige hidden flex-col py-3 px-4">
+          <div class="bg-beige hidden flex-col py-3 px-4 menu-content">
             <form class>
               <input
                 type="text"
@@ -275,9 +359,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">More Choices</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1"
               >Contribute to our running costs</a
             >
@@ -304,14 +397,23 @@
       <!-- Right sidebar -->
       <div
         id="sidebar-right"
-        class="h-auto w-full max-w-sm mx-auto lg:w-44 hidden lg:flex mt-4 lg:mt-0"
+        class="h-auto w-full max-w-sm mx-auto lg:w-44 xl:w-60 hidden lg:flex mt-4 lg:mt-0"
       >
         <div class="flex flex-col w-full">
           <div class="bg-lime flex flex-row justify-between py-3 px-4">
             <h1 class="font-averta-cy-semibold text-sm">Categories</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1"
               >Books/Products
             </a>
@@ -347,9 +449,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">Follow us on</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1"
               >Our Youtube Channel
             </a>
@@ -385,9 +496,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">Past Articles</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <div class="flex flex-col">
               <h1 class="font-averta-cy-semibold text-sm mt-1">
                 Sunday, 15 May 2022
@@ -464,9 +584,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">Social Media</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1"
               >Our Youtube Channel
             </a>
@@ -502,9 +631,18 @@
           </div>
           <div class="bg-lime flex flex-row justify-between py-3 px-4 mt-4">
             <h1 class="font-averta-cy-semibold text-sm">Related Links</h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1"
               >Our Youtube Channel
             </a>
@@ -542,9 +680,18 @@
             <h1 class="font-averta-cy-semibold text-sm">
               Auto-Translation (Google)
             </h1>
-            <img src="images/down_arrow2.svg" class="h-2 my-auto ml-3" />
+            <div class="relative h-2 w-3 my-auto ml-3">
+              <img
+                src="images/down_arrow_menu.svg"
+                class="h-full w-auto absolute down-arrow-menu"
+              />
+              <img
+                src="images/up_arrow_menu.svg"
+                class="h-full w-auto absolute up-arrow-menu hidden"
+              />
+            </div>
           </div>
-          <div class="bg-beige flex-col py-3 px-4 hidden">
+          <div class="bg-beige flex-col py-3 px-4 hidden menu-content">
             <a href="#" class="font-averta-cy-regular text-xs my-1"
               >Our Youtube Channel
             </a>
