@@ -26,7 +26,7 @@
                     />
                     <input
                       type="text"
-                      placeholder="Search.."
+                      placeholder="Search for something.."
                       name="search"
                       class="w-96 font-averta-cy-regular text-sm text-teal placeholder-teal rounded-r-full"
                     />
@@ -140,8 +140,25 @@
     </div>
 
     <!-- Close menu button -->
-    <div id="close-menu" class="mx-4 w-auto h-20 hidden mt-4">
-      <div class="w-full max-w-sm mx-auto h-full bg-green-50">close</div>
+    <div id="close-menu" class="mx-4 w-auto h-auto hidden mt-4">
+      <div class="w-full max-w-sm mx-auto h-full flex flex-row">
+        <img
+          id="close-search"
+          src="images/cross.svg"
+          class="h-5 w-auto my-auto ml-2"
+        />
+        <div
+          class="h-7 rounded-full my-auto ml-2 bg-white flex-1 flex flex-row"
+        >
+          <img src="images/search.svg" class="h-3.5 w-auto my-auto mx-2.5" />
+          <input
+            type="text"
+            placeholder="Search for something.."
+            name="search"
+            class="flex-1 font-averta-cy-regular text-sm text-teal placeholder-teal rounded-r-full"
+          />
+        </div>
+      </div>
     </div>
     <div class="flex flex-col lg:flex-row mx-4 lg:mt-4 mb-4">
       <!-- Left sidebar -->
