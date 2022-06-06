@@ -76,7 +76,7 @@
 
 @font-face {
   font-family: AvertaCY_Black_Italic;
-  src: url("fonts/Averta_Cyrillic_Black.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_Black_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-black-italic {
@@ -85,7 +85,7 @@
 
 @font-face {
   font-family: AvertaCY_Bold_Italic;
-  src: url("fonts/Averta_Cyrillic_Bold.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_Bold_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-bold-italic {
@@ -94,7 +94,7 @@
 
 @font-face {
   font-family: AvertaCY_ExtraThin_Italic;
-  src: url("fonts/Averta_Cyrillic_Extra_Thin.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_Extra_Thin_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-extrathin-italic {
@@ -103,7 +103,7 @@
 
 @font-face {
   font-family: AvertaCY_ExtraBold_Italic;
-  src: url("fonts/Averta_Cyrillic_ExtraBold.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_ExtraBold_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-extrabold-italic {
@@ -112,7 +112,7 @@
 
 @font-face {
   font-family: AvertaCY_Light_Italic;
-  src: url("fonts/Averta_Cyrillic_Light.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_Light_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-light-italic {
@@ -121,7 +121,7 @@
 
 @font-face {
   font-family: AvertaCY_Regular_Italic;
-  src: url("fonts/Averta_Cyrillic_Regular.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_Regular_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-regular-italic {
@@ -130,7 +130,7 @@
 
 @font-face {
   font-family: AvertaCY_SemiBold_Italic;
-  src: url("fonts/Averta_Cyrillic_SemiBold.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_SemiBold_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-semibold-italic {
@@ -139,7 +139,7 @@
 
 @font-face {
   font-family: AvertaCY_Thin_Italic;
-  src: url("fonts/Averta_Cyrillic_Thin.otf") format("opentype");
+  src: url("fonts/Averta_Cyrillic_Thin_Italic.otf") format("opentype");
 }
 
 .font-averta-cy-thin-italic {

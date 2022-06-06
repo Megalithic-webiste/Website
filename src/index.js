@@ -64,7 +64,6 @@ const mediaQuery = window.matchMedia("(min-width: 1024px)");
 menu.addEventListener("click", function () {
   header.classList.add("hidden");
   body.classList.add("hidden");
-  body.classList.remove("flex");
   sidebar_left.classList.remove("hidden");
   sidebar_left.classList.add("flex");
   sidebar_right.classList.remove("hidden");
@@ -76,7 +75,6 @@ menu.addEventListener("click", function () {
 close_menu.addEventListener("click", function () {
   header.classList.remove("hidden");
   body.classList.remove("hidden");
-  body.classList.add("flex");
   sidebar_left.classList.add("hidden");
   sidebar_left.classList.remove("flex");
   sidebar_right.classList.add("hidden");
@@ -92,7 +90,6 @@ function handleDeviceChange(e) {
     if (close_menu.classList.contains("flex")) {
       header.classList.remove("hidden");
       body.classList.remove("hidden");
-      body.classList.add("flex");
       sidebar_left.classList.add("hidden");
       sidebar_left.classList.remove("flex");
       sidebar_right.classList.add("hidden");

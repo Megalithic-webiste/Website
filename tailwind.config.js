@@ -15,6 +15,9 @@ module.exports = {
         light_grey: "#C4C4C4",
         teal: "#204F5E",
       },
+      lineHeight: {
+        4.5: "1.15rem",
+      },
     },
     variants: {
       extend: {},
